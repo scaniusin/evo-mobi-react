@@ -1,0 +1,23 @@
+.content {
+    padding: 3em 0;
+}
+.item-img {
+    width: 90%;
+    box-shadow: 5px 5px 25px 0px rgba(46,61,73, .2);
+}
+.item-description__title {
+    color: #ff7043;
+    font-size: 2rem;
+}
+.item-description__txt {
+    color: #444;
+}
+.item-description__txt {
+    color: #444;
+}
+.price {
+    float: right;
+    font-size: 2rem;
+    margin-top: 1em;
+    color: #444;
+}

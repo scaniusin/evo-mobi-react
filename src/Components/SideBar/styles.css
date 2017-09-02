@@ -1,0 +1,20 @@
+h2 {
+    color: #444;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.sidebar__ul {
+    list-style: none;
+}
+.sidebar__li {
+    margin: .5em 0;
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+    transition: all .5s ease;
+}
+.sidebar__ul.second {
+    border-top: 1px solid #4285f4;
+    margin-top: 5px;
+    padding-top: 5px;
+}
