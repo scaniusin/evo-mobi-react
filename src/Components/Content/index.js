@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import './styles.css';
 import Sidebar from '../SideBar'
 import ProductAPI from '../../db';
-import PropTypes from 'prop-types'
 
 //
 // class Content extends Component {
@@ -38,12 +37,18 @@ import PropTypes from 'prop-types'
 const Content = (props) => {
 
   const renderProductList = ({name, desc, category, price, size, img, id}) => {
+
+    let aStyle = {
+      backgroundImage: 'url(' + img + ')'
+
+    };
+
     return(
 
       <div className="col-md-4" key={name}>
         <div className="card">
           <Link className="card__link" to={`/product/${id}`}>
-            <div className="card__header item-school-1">
+            <div className="card__header" style={aStyle}>
               <div className="card__header--overlay"></div>
             </div>
             <div className="card__title">

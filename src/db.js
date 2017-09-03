@@ -9,7 +9,7 @@ const ProductAPI = {
       category: 'school',
       price: '1855,00',
       size:'1250х530 мм',
-      img:'static/img/products/item-school-1.jpg',
+      img:'/static/img/products/item-school-1.jpg',
       id:'item-school-1'
     },
     {
@@ -21,7 +21,7 @@ const ProductAPI = {
       category: 'school',
       price: '1710,00',
       size:'1250х530 мм',
-      img:'static/img/products/item-school2.jpg',
+      img:'/static/img/products/item-school-2.jpg',
       id:'item-school-2'
     },
     {
@@ -33,7 +33,7 @@ const ProductAPI = {
       category: 'school',
       price: '1095,00',
       size:'1200х500х700 мм',
-      img:'static/img/products/item-school-3.jpg',
+      img:'/static/img/products/item-school-3.jpg',
       id:'item-school-3'
     },
     {
@@ -42,7 +42,7 @@ const ProductAPI = {
       category: 'kindergarten',
       price: '531,00',
       size:' 856x104x750 мм',
-      img:'static/img/products/item-kindergarten-1.jpg',
+      img:'/static/img/products/item-kindergarten-1.jpg',
       id:'item-kindergarten-1'
     },
     {
@@ -53,7 +53,7 @@ const ProductAPI = {
       category: 'kindergarten',
       price: '2227,00',
       size:' 856x104x750 мм',
-      img:'static/img/products/item-kindergarten-2.jpg',
+      img:'/static/img/products/item-kindergarten-2.jpg',
       id:'item-kindergarten-2'
     },
   ],
