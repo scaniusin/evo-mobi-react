@@ -7,7 +7,51 @@ import './styles.css';
 
 
 class Header extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      scrollingLock: false
+    };
+    // example how to bind object in React ES6
+    this.handleScroll = this.handleScroll.bind(this)
+  }
+  componentDidMount(){
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll() {
+
+    if (window.scrollY > 230) {
+      console.log("should lock");
+      this.setState({
+        scrollingLock: true
+      });
+    } else if (window.scrollY < 230) {
+      console.log("not locked" );
+      this.setState({
+        scrollingLock: false
+      });
+    }
+
+  }
+
   render() {
+
+    const navlock = {
+      position: 'fixed',
+      top: '0px',
+      width: '100%'
+    };
+    const navunlock = {
+      position: '',
+      top: '-1000px',
+      width: 'auto%'
+    };
     return (
       <div className="Header">
 
@@ -30,7 +74,7 @@ class Header extends Component {
           </div>
         </header>
 
-        <section className="navigation" >
+        <section className="navigation" style={ this.state.scrollingLock ? navlock : navunlock}>
           <div className="container">
             <nav className="nav">
               <ul className="nav__ul">

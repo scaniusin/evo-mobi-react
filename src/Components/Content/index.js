@@ -62,16 +62,23 @@ const Content = (props) => {
     )
   }
 
-  const noProducts =  (<h1>no items</h1>)
+  const noProducts =  (<div className="text-center">
+    <img src="/static/img/404.gif" />
+  </div>);
 
   const all_products_list = ProductAPI.all().map(renderProductList)
 
-  const specific_products_list = ProductAPI.getListCateg(props.match.params.category).map(renderProductList)
+  var specific_products_list = ProductAPI.getListCateg(props.match.params.category).map(renderProductList)
+
+  if (specific_products_list == ''){
+    specific_products_list = noProducts;
+    console.log('list:' + specific_products_list + '    ' + 'Category ' + category)
+
+  }
 
   const category = ProductAPI.getbyCateg(props.match.params.category);
 
 
-  console.log('list:' + specific_products_list.typeof + '    ' +'Category ' + category)
 
     return (
 
@@ -83,9 +90,7 @@ const Content = (props) => {
           <div className="col-md-10">
             <div className="content">
               <div className="row">
-                {!category && !props.match.params.category ? all_products_list : (
-                  specific_products_list ? specific_products_list : noProducts
-                )}
+                {!category && !props.match.params.category ? all_products_list : specific_products_list}
               </div>
             </div>
           </div>
