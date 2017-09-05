@@ -13,7 +13,7 @@ const App = () => (
 
     <footer className="footer">
       <div className="container">
-        <a className="footer__by" href="http://positronbohemia.com/" target="_blank"> Positron Bohemia</a>
+        <a className="footer__by" href="http://positronbohemia.com/" target="_blank" rel="noopener noreferrer"> Positron Bohemia</a>
       </div>
     </footer>
   </div>

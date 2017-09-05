@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-import phoneIcon from '../../static/img/phone.svg';
-import addressIcon from  "../../static/img/adress.svg";
-import mailIcon from  "../../static/img/mail.svg";
+
 
 class Contacts extends Component {
 
@@ -23,17 +21,17 @@ class Contacts extends Component {
                 <div className="col-md-6">
                   <div className="contact-description">
                     <div className="contact-description__adress top">
-                      <img className="contact-description__icon" src={addressIcon} alt="" />
+                      <img className="contact-description__icon" src="static/img/adress.svg" alt="" />
                         <h3 className="contact-description__title">Адрес</h3>
                         <p className="contact-description__txt">Кишинёв, ул 31 августа 1989 ул 98</p>
                     </div>
                     <div className="contact-description__phone top">
-                      <img className="contact-description__icon" src={phoneIcon} alt="" />
+                      <img className="contact-description__icon" src='static/img/phone.svg' alt="" />
                         <h3 className="contact-description__title">Телефон</h3>
                         <p className="contact-description__txt">+373 78 900 900</p>
                     </div>
                     <div className="contact-description__email top">
-                      <img className="contact-description__icon" src={mailIcon} alt="" />
+                      <img className="contact-description__icon" src="static/img/mail.svg" alt="" />
                         <h3 className="contact-description__title">E-mail</h3>
                         <p className="contact-description__txt">masevomobi@gmail.com</p>
                     </div>

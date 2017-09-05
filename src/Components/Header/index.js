@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import phoneIcon from '../../static/img/phone.svg';
-import ruIcon from  "../../static/img/ru2.png";
-import mdIcon from  "../../static/img/md2.png";
 import './styles.css';
 
 
@@ -59,12 +56,12 @@ class Header extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-6">
-                <Link href="/" className="header-name">Evo Mobi</Link>
+                <Link to={"/"} className="header-name">Evo Mobi</Link>
               </div>
               <div className="col-md-6">
                 <div className="header-contact">
                   <div className="header-contact__icon">
-                    <img className="header-contact__img" src={phoneIcon} alt="" />
+                    <img className="header-contact__img" src='static/img/phone.svg' alt="" />
                   </div>
                   <h2 className="header-contact__phone">+373 78 900 900</h2>
                   <h3 className="header-contact__adress">masevomobi@gmail.com</h3>
@@ -89,10 +86,10 @@ class Header extends Component {
             </nav>
             <div className="flex languages">
               <a className="flex" >
-                <img className="languages__img" src={ruIcon} alt="" />
+                <img className="languages__img" src="static/img/ru2.png" alt="" />
               </a>
               <a className="flex" >
-                <img className="languages__img" src={mdIcon} />
+                <img className="languages__img" src="static/img/md2.png" />
               </a>
             </div>
           </div>
