@@ -59,7 +59,7 @@ class Header extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-6">
-                <a href="/" className="header-name">Evo Mobi</a>
+                <Link href="/" className="header-name">Evo Mobi</Link>
               </div>
               <div className="col-md-6">
                 <div className="header-contact">
