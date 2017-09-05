@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b4b843-7e5f-4b4e-92a0-2c371ff033fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Header/index.js" afterPath="$PROJECT_DIR$/src/Components/Header/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/adress.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/mail.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/md2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/phone.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-kindergarten-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-kindergarten-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-school-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-school-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-school-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-school-4 (1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/products/item-school-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/img/ru2.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -218,12 +229,6 @@
             <path>
               <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,48 +236,6 @@
               <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Detailed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Evo_Mobi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evo_Mobi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,18 +291,17 @@
       <workItem from="1504300470560" duration="5074000" />
       <workItem from="1504369399991" duration="27476000" />
       <workItem from="1504464745645" duration="59000" />
-      <workItem from="1504597745556" duration="799000" />
+      <workItem from="1504597745556" duration="1132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33408000" />
+    <option name="totallyTimeSpent" value="33741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1360" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19195484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19195484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
