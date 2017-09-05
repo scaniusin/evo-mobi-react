@@ -84,10 +84,10 @@ const Content = (props) => {
 
       <div className="container">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-2 col-sm-2">
             <Sidebar/>
           </div>
-          <div className="col-md-10">
+          <div className="col-md-10 col-sm-10">
             <div className="content">
               <div className="row">
                 {!category && !props.match.params.category ? all_products_list : specific_products_list}
